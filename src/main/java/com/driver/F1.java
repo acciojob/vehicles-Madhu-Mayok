@@ -6,10 +6,9 @@ public class F1 extends Car {
         //Use arbitrary values for parameters which are not mentioned
         super(name,4,4,6,isManual,"Luxury",5);
     }
-    public F1(){}
 
     public void accelerate(int rate){
-        int newSpeed = this.getCurrentSpeed()+rate; //set the value of new speed by using currentSpeed and rate
+        int newSpeed = getCurrentSpeed()+rate; //set the value of new speed by using currentSpeed and rate
         /**
          * speed 0: gear 1
          * speed 1-50: gear 1
